@@ -1,35 +1,39 @@
-# Circular Paraboloid using meshgrid
 
-This repository contains Python code for generating and visualizing a circular paraboloid using `matplotlib` and the `mpl_toolkits.mplot3d` library. The code demonstrates how to create a 3D plot of a circular paraboloid using a meshgrid and contour plots.
+# Double Pendulum and Circular Paraboloid using meshgrid Plot
 
-## Table of Contents
+This repository contains Python code for simulating a double pendulum and plotting a circular paraboloid using Matplotlib.
 
-- [Requirements](#requirements)
-- [Usage](#usage)
-- [Code Explanation](#code-explanation)
+## Double Pendulum
 
-## Requirements
+### Overview
 
-To run the code in this repository, you will need the following dependencies:
+The `double_pendulum.py` script simulates the motion of a double pendulum using the equations of motion. It includes a 3D animation of the double pendulum's motion.
 
-- Python 3.x
-- NumPy
-- Matplotlib
+### Instructions
 
-You can install the required Python packages using `pip`:
+To run the double pendulum simulation, you can use the following steps:
 
-```bash
-pip install numpy matplotlib
+1. Clone this repository to your local machine.
 
-Usage
-Clone the repository to your local machine:
-git clone https://github.com/codingwizardabhisar/Python-Project.git
+2. Ensure you have the required libraries installed, including NumPy, Matplotlib, SciPy, and the Matplotlib Animation module.
 
-Code Explanation
-The circular_paraboloid.py script performs the following tasks:
+3. Run the `double_pendulum.py` script.
 
-Creates a meshgrid of X and Y coordinates.
+## Circular Paraboloid using meshgrid
 
+### Overview
 
-Calculates the Z values for a circular paraboloid using Z = X**2 + Y**2.
-Displays the circular paraboloid using contour and 3D surface plots.
+The `circular_paraboloid.py` script generates a 2D and 3D plot of a circular paraboloid using Matplotlib and NumPy.
+
+![Circular Paraboloid](circular_paraboloid.png)
+
+### Instructions
+
+To run the circular paraboloid plot, you can use the following steps:
+
+1. Clone this repository to your local machine.
+
+2. Ensure you have the required libraries installed, including NumPy and Matplotlib.
+
+3. Run the `circular_paraboloid.py` script.
+
