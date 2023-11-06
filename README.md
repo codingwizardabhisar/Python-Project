@@ -29,5 +29,7 @@ Code Explanation
 The circular_paraboloid.py script performs the following tasks:
 
 Creates a meshgrid of X and Y coordinates.
+
+
 Calculates the Z values for a circular paraboloid using Z = X**2 + Y**2.
 Displays the circular paraboloid using contour and 3D surface plots.
