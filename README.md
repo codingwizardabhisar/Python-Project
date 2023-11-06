@@ -23,9 +23,8 @@ To run the double pendulum simulation, you can use the following steps:
 
 ### Overview
 
-The `circular_paraboloid.py` script generates a 2D and 3D plot of a circular paraboloid using Matplotlib and NumPy.
+The `meshgrid.py` script generates a 2D and 3D plot of a circular paraboloid using Matplotlib and NumPy.
 
-![Circular Paraboloid](circular_paraboloid.png)
 
 ### Instructions
 
@@ -35,5 +34,5 @@ To run the circular paraboloid plot, you can use the following steps:
 
 2. Ensure you have the required libraries installed, including NumPy and Matplotlib.
 
-3. Run the `circular_paraboloid.py` script.
+3. Run the `meshgrid.py` script.
 
